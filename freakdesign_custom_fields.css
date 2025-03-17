@@ -179,3 +179,43 @@
   top: -12px;
   right: -12px;
 }
+
+/* Existing styles remain unchanged */
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+  #freakdesign_main_button {
+    font-size: 14px;
+    line-height: 36px;
+  }
+  
+  .freakdesign_custom_fields .custom_fields_box .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 1em;
+  }
+  
+  .modalWindow > div {
+    width: 90%;
+    margin: 15% auto;
+    padding: 1em;
+  }
+  
+  .modalWindow .half,
+  .modalWindow .span1,
+  .modalWindow .span2 {
+    width: 100%;
+    float: none;
+  }
+  
+  .modalWindow .close-modal {
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+  }
+  
+  .custom-fields-future-buttons {
+    top: -8px;
+    right: -8px;
+  }
+}
